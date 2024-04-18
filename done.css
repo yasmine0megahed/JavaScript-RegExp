@@ -1,0 +1,9 @@
+div{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    border-radius: 20px;
+    width:70vw;
+    margin:222px auto;
+    background-image: linear-gradient(To right,black, pink,black);
+}

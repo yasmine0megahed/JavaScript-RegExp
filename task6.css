@@ -1,0 +1,48 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50vw;
+    height: 90vh;
+    border: 5px solid black;
+}
+
+input[type='submit'] {
+    background: linear-gradient(to right, lightblue, gray);
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+input[type='submit']:hover {
+    background: linear-gradient(to left, lightblue, gray);
+    width: 105px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+input[type="text"], input[type="password"] {
+    /*border-radius: 8px;*/
+    /*outline: none;*/
+    outline: blue;
+    border: 2px solid black;
+    /*border-bottom: 1px solid black;*/
+    transition: all 1s;
+    border-radius: 5px;
+}
+
+#usererror,#emailerror,#phoneerror,#passworderror,#gendererror{
+    text-align:center ;
+    color: red;
+    font-size: medium;
+    font-weight: bold;
+    display: none;
+}

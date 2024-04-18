@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task6</title>
+    <link rel="stylesheet" href="task6.css">
+</head>
+<body>
+<div id="container">
+    <form id="form"  method="post">
+        <!-- action="#" -->
+        <div>
+            <label for="username">username</label>
+            <input type="text" id="username" name="username" >
+            <div id="usererror">error</div>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" >
+            <div id="passworderror">error</div>
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="text" id="email" name="email" >
+            <div id="emailerror">error</div>
+        </div>
+        <div>
+            <label for="phone">phone</label>
+            <input type="text" id="phone" name="phone" >
+            <div id="phoneerror">error</div>
+        </div>
+        <div>
+            <label>select your gender</label>
+        </div>
+        <div >
+            <label>male</label>
+            <input id="male" type="radio" name="gender">
+            <label>female</label>
+            <input id="female" type="radio" name="gender">
+            <div id="gendererror">select gender</div>
+        </div>
+        <input id="submit" type="button" value="register">
+        <script src="task6.js"></script>
+    </form>
+</div>
+</body>
+</html>
